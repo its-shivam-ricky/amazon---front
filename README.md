@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+🛒 Amazon Clone (React.js)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a multi-page Amazon Clone built using React.js. It mimics the basic structure and functionality of an e-commerce website with product listing, cart management, and routing between pages.
 
-## Available Scripts
+🚀 Features
 
-In the project directory, you can run:
+Home Page – Showcases featured sections/products.
+Products Page – Displays a list of products with details.
+Cart Page – Add/remove items from the cart.
+Navigation Bar & Footer – Persistent across pages.
+Routing – Implemented with React Router DOM.
+Responsive Design – Works across devices.
+Toast Notifications – User-friendly alerts using React-Toastify.
+State Management – Handled with Redux.
 
-### `npm start`
+🛠️ Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Frontend: React.js (CRA - Create React App)
+Routing: React Router DOM
+State Management: Redux + React-Redux
+UI Components: Material UI (MUI)
+Styling: Emotion (styled & react)
+Notifications: React-Toastify
+Testing: React Testing Library + Jest
+Build Tool: React Scripts
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+📂 Project Structure
 
-### `npm test`
+my-app/
+│── public/               # Static files (favicon, index.html, etc.)
+│── src/
+│   ├── App.js            # Main App entry point
+│   ├── component/        # Reusable UI components (Navbar, Footer, etc.)
+│   ├── Screen/           # Pages (HomeScreen, Products, Cart)
+│   ├── assets/           # Images, logos, etc.
+│   ├── App.css           # Global styles
+│── package.json          # Dependencies & scripts
+│── .gitignore            # Ignored files for Git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+📸 Screenshots
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#1} Home page
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img width="2871" height="1613" alt="Screenshot 2025-08-18 155733" src="https://github.com/user-attachments/assets/b298e19f-c7ca-4c52-b383-aabaf6f18b28" />
+<img width="2871" height="1618" alt="Screenshot 2025-08-18 155906" src="https://github.com/user-attachments/assets/448f15d3-2695-4f9b-a8bb-7c19cd561462" />
+<img width="2879" height="1613" alt="Screenshot 2025-08-18 155937" src="https://github.com/user-attachments/assets/0cbf03b3-1762-4280-b0e6-2e64500e98c5" />
+<img width="2879" height="1047" alt="image" src="https://github.com/user-attachments/assets/8e947061-ee22-4bde-af5e-6e68c19d7294" />
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#2} cart page
+<img width="2879" height="1612" alt="Screenshot 2025-08-18 160338" src="https://github.com/user-attachments/assets/8fab7c66-4b57-4e6e-aeed-f80e7dccc298" />
 
-### `npm run eject`
+#3} Product page (on click eg- mobiles, electronic or on any product)
+<img width="2879" height="1612" alt="Screenshot 2025-08-18 160637" src="https://github.com/user-attachments/assets/ccdfc6ba-3345-4556-bb45-c4f6118c311c" />
+<img width="2879" height="1619" alt="Screenshot 2025-08-18 160710" src="https://github.com/user-attachments/assets/0e597dd9-0313-49ba-9e74-5a422cedad70" />
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#4} Notifications: React-Toastify (added)
+<img width="1176" height="539" alt="image" src="https://github.com/user-attachments/assets/691c4a28-35d4-4d51-8c9f-cd376d856e34" />
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
