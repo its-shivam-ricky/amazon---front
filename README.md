@@ -43,7 +43,6 @@ my-app/
 #1} Home page
 
 <img width="2871" height="1613" alt="Screenshot 2025-08-18 155733" src="https://github.com/user-attachments/assets/b298e19f-c7ca-4c52-b383-aabaf6f18b28" />
-<img width="2871" height="1618" alt="Screenshot 2025-08-18 155906" src="https://github.com/user-attachments/assets/448f15d3-2695-4f9b-a8bb-7c19cd561462" />
 <img width="2879" height="1613" alt="Screenshot 2025-08-18 155937" src="https://github.com/user-attachments/assets/0cbf03b3-1762-4280-b0e6-2e64500e98c5" />
 <img width="2879" height="1047" alt="image" src="https://github.com/user-attachments/assets/8e947061-ee22-4bde-af5e-6e68c19d7294" />
 
