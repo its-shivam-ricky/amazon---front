@@ -1,8 +1,8 @@
-##🛒 **Amazon Clone (React.js)**
+## 🛒 **Amazon Clone (React.js)**
 
 This project is a multi-page Amazon Clone built using React.js. It mimics the basic structure and functionality of an e-commerce website with product listing, cart management, and routing between pages.
-
-#🚀**Features**
+---
+# 🚀**Features**
 
 Home Page – Showcases featured sections/products.
 Products Page – Displays a list of products with details.
@@ -12,8 +12,8 @@ Routing – Implemented with React Router DOM.
 Responsive Design – Works across devices.
 Toast Notifications – User-friendly alerts using React-Toastify.
 State Management – Handled with Redux.
-
-#🛠️**Tech Stack**
+---
+# 🛠️**Tech Stack**
 
 Frontend: React.js (CRA - Create React App)
 Routing: React Router DOM
@@ -23,9 +23,8 @@ Styling: Emotion (styled & react)
 Notifications: React-Toastify
 Testing: React Testing Library + Jest
 Build Tool: React Scripts
-
 ---
-#📂 **Project Structure**
+# 📂 **Project Structure**
 
 my-app/
 │── public/               # Static files (favicon, index.html, etc.)
@@ -39,7 +38,7 @@ my-app/
 │── .gitignore            # Ignored files for Git
 
 ---
-#📸 **Screenshots**
+# 📸 **Screenshots**
 
 #1} Home page
 
